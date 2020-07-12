@@ -1,6 +1,6 @@
 {
   "name": "Telegram Torrent Leecher",
-  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @moviezonlysupport!",
+  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram.",
   "keywords": [
     "telegram",
     "best",
@@ -14,8 +14,8 @@
     "youtube-dl",
     "leecher"
   ],
-  "repository": "https://githhttps://github.com/prgofficial/TorrentLeech-GDriVe",
-  "success_url": "https://t.me/moviezonlysupport",
+  "repository": "https://github.com/prgofficial/TorrentLeech-GDriVe",
+  "success_url": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
   "website": "https://github.com/prgofficial/TorrentLeech-GDriVe",
   "env": {
     "ENV": {
@@ -73,10 +73,6 @@
       "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
       "required": false
     },
-    "INDEX_LINK": {
-      "description": "Enter your index link:",
-      "required": false
-    },
     "GLEECH_COMMAND": {
       "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
       "required": false
@@ -87,10 +83,6 @@
     },
     "YTDL_COMMAND": {
       "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
-      "required": false
-    },
-    "RCLONE_CONFIG": {
-      "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
       "required": false
     },
     "DESTINATION_FOLDER": {
