@@ -160,7 +160,7 @@ if __name__ == "__main__" :
     #
     clear_thumb_nail_handler = MessageHandler(
         clear_thumb_nail,
-        filters=Filters.command(["delthumb"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["delthumb@BurnaBoyBot"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(clear_thumb_nail_handler)
     #
